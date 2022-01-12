@@ -300,9 +300,15 @@ HINT - you may need to study tomorrow's content on arrays
 HINT - try looking up the .includes() method
 */
 
-
-function vowelCounter(/*add your code here*/) {
-  /*add your code here*/
+let vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+function vowelCounter(sentence) {
+  let count = 0;
+  for (let i = 0; i < vowels.length; i++){
+    if (vowels.includes(sentence[i])) {
+      count++;
+    }
+  }
+  return count;
 }
 
 
