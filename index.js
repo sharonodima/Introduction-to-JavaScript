@@ -19,7 +19,9 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 19
 
+console.log(votingAge >= 18)
 
 
 /*
@@ -33,8 +35,16 @@ Do the following:
    HINT: no function required
 */
 
+let value1 = 8
+let value2 = 10
 
+if(value2 === value1){
+  console.log("equals")
+} else {
+  value1 = 0
+}
 
+console.log(value1)
 
 
 /*
@@ -48,7 +58,10 @@ Do the following:
    HINT: look up the Number method
 */
 
+let myString = "1999"
+let myNum = parseInt(myString)
 
+console.log(myNum)
 
 
 /*
@@ -60,9 +73,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a * b
 }
+
+console.log(multiply(5, 7))
 
 
 
@@ -76,9 +91,11 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  return age * 7
 }
+
+console.log(dogYears(5))
 
 
 
